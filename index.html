@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mobile Tab Bar</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+<body>
+
+  <!-- Pages (Demo Sections) -->
+  <main id="content">
+    <section id="home" class="page active">Home</section>
+    <section id="about" class="page">About</section>
+    <section id="coaching" class="page">Coaching</section>
+    <section id="progress" class="page">Progress</section>
+    <section id="contact" class="page">Contact</section>
+  </main>
+
+  <!-- Bottom Tab Bar -->
+  <nav class="tab-bar">
+    <button class="tab active" data-target="home">
+      <i class="bx bx-home"></i>
+      <span>Home</span>
+    </button>
+
+    <button class="tab" data-target="about">
+      <i class="bx bx-user"></i>
+      <span>About</span>
+    </button>
+
+    <button class="tab" data-target="coaching">
+      <i class="bx bx-dumbbell"></i>
+      <span>Coaching</span>
+    </button>
+
+    <button class="tab" data-target="progress">
+      <i class="bx bx-line-chart"></i>
+      <span>Progress</span>
+    </button>
+
+    <button class="tab" data-target="contact">
+      <i class="bx bx-message-rounded"></i>
+      <span>Contact</span>
+    </button>
+  </nav>
+
+  <script src="./script.js"></script>
+</body>
+</html>
